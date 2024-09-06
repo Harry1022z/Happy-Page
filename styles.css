@@ -1,0 +1,891 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #000;
+}
+
+p {
+    color: #555;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-family: 'Bebas Neue', sans-serif;
+    cursor: pointer;
+}
+
+/* Header Styles */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:  #efc60b;
+    overflow-x: hidden;
+}
+
+nav .logo img {
+    height: 50px;
+    translate: 50px
+}
+
+nav .menu {
+    display: flex;
+    gap: 20px;
+}
+
+nav .menu li {
+    list-style: none;
+}
+
+nav .menu li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 20px 60px;
+    margin-top: 80px; /* Añadir espacio para el header fijo */
+    background-color: #fff;
+}
+
+.hero-content img {
+    width: 89%;
+    height: 100%;
+    translate: 50px -50px;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 90px;
+    margin-bottom: 20px;
+    translate: 700px -400px;
+    line-height: 0.8;
+    font-weight: 300 ;
+}
+
+
+.hero-text p {
+    margin-bottom: 20px;
+    translate: 117% -390%;
+    font-weight: 600;
+    color: #000;
+}
+
+.botoncin {
+    padding: 8px 50px;
+    background-color: #efc60b;
+    color: #000000;
+    translate: 423% -1000%;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+/* Happiness In Numbers Section */
+.stats {
+    background-color: #ffcc00; /* Fondo amarillo */
+    padding: 0px 0px;
+    text-align: left;
+}
+
+.stats-content {
+    max-width: 1300px;
+    margin: auto;
+    background-color:  #ebebf4; 
+    padding: 10px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.233); /* Sombra */
+    border-radius: 0px;
+    translate: 0px -370px;
+    height: 450px;
+}
+.stats-content p {
+    font-size: 100%;
+    translate: 100px 50px;
+    font-weight: 600;
+}
+
+.negris {
+    color: #000;
+    font-size: 20px;
+    font-weight: 900;
+}
+.stats h2 {
+    font-weight: 100;
+    font-size: 70px;
+    margin-bottom: 30px;
+    color: #efc60b; 
+    translate: 100px 80px;
+    line-height: 0.9;
+}
+
+.stats-graphics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.stats-graphics1 {
+    width: 200px;
+    height: 200px;
+    translate: 600px -200px
+}
+
+.stats-graphics2 {
+    width: 200px;
+    height: 200px;
+    translate: 400px -250px
+}
+/* We Can Help You Section */
+.help-content {
+    background-color: #ffcc00;
+    padding: 0px 0px;
+    text-align: left;
+    height: 570px;
+}
+
+.help-content h2 {
+    font-size: 100px;
+    margin-bottom: 30px;
+    color: #000;
+    translate: 100px -300px;
+}
+
+.help-content p {
+    font-size: 17px;
+    font-weight: 900;
+    translate: 100px -850px;
+    color: #000;
+    font-weight: 600;
+}
+
+.help-content img {
+    width: 700px;
+    height: 500px;
+    margin-top: 20px;
+    translate: 550px -400px;
+}
+
+.botoni {
+    padding: 8px 50px;
+    background-color: #000000;
+    color: #ffffff;
+    translate: 60% -2000%;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+}
+/* % Happiness Section */
+.happiness {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.happiness-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 20px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    border-radius: 8px;
+    background-color: #eceae9;
+    padding: 0px 10px;
+}
+
+.happiness-content img {
+    width: 500px;
+    height: auto;
+    translate: -114px
+}
+
+.imagen img {
+    width: 200px;
+    translate: 120px;
+}
+
+.happiness-text {
+    max-width: 600px;
+}
+
+.happiness-text h2 {
+    font-size: 90px;
+    margin-bottom: 20px;
+    color:#ffcc00;
+    translate: -150px
+}
+
+.boton-negro {
+    border: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    width: 150px;
+    font-size: 18px;
+    translate: -260px -200px;
+}
+
+.happiness-text p {
+    margin-bottom: 20px;
+    text-align: left;
+    translate: -110px;
+    font-weight: 900;
+}
+
+/* About Us Section */
+.about {
+    background-color: #000;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about h4 {
+    color:#efc60b;
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.about img {
+    translate: 0px 50px;
+    width: 700px;
+    height: auto;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.about p {
+    max-width: 600px;
+    margin: 20px auto;
+    translate: 0px -460px;
+    color: #fff;
+}
+
+.boton-ama {
+    color: #000;
+    background-color: #ffcc00;
+    border: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    width: 150px;
+    font-size: 18px;
+    translate: 0px -30px;
+}
+
+/* Our Team Section */
+.team {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.team img {
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
+    translate: -400px;
+}
+
+.team p {
+    font-size: 15px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+    font-weight: 900;
+    translate: 190px -250px;
+}
+
+.team h5 {
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    translate: -35px 230px
+}
+
+.boton-ama2 {
+    color: #000;
+    background-color: #ffcc00;
+    border: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    width: 150px;
+    font-size: 18px;
+    translate: -35px -260px;
+}
+/* Method Section */
+.method {
+    background-color: #f0f0f0;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.method-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.method-content img {
+    width: 500px;
+    height: auto;
+    translate: 600px;
+}
+
+.method-text {
+    max-width: 600px;
+}
+
+.method-text h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    line-height: 0.8;
+    text-align: left;
+    translate: -600px;
+}
+
+.method-text p {
+    font-weight: 900;
+    font-size: 18px;
+    translate: -600px;
+    text-align: left;
+}
+
+.amarelo {
+    border: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    width: 150px;
+    font-size: 18px;
+    translate: -770px 30px;
+    background-color:#efc60b;
+    color: #000;
+}
+/* Newsletter Section */
+/* Section Form Styles */
+.form-section {
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+
+.form-section .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.form-container {
+    background-color: #000;
+    color: #ffffff;
+    padding: 35px;
+    width: 41%;
+    border-radius: 0px;
+    translate: 150px;
+}
+
+.form-container h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.name-surname {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.input-field {
+    width: 48%;
+}
+
+.form-group label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: block;
+    translate: 0px -50px;
+    line-height: 0.01;
+}
+
+/* Estilo para los campos del formulario */
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #000; /* Fondo negro */
+    border: 3px solid #fff; /* Borde blanco */
+    color: #fff; /* Texto blanco */
+    border-radius: 0px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    translate: 0px -50px;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #ccc; /* Color gris claro para los placeholders */
+}
+
+
+.form-group textarea {
+    resize: none;
+}
+
+.form-container p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: -60px;
+    text-align: left;
+
+}
+
+.info-section {
+    padding: 40px;
+    width: 50%;
+}
+
+.info-section h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #efc60b;
+    text-align: left;
+    line-height: 1.2;
+    translate: 100px 80px;
+    font-weight: 100;
+}
+
+.info-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    translate: 100px 80px;
+}
+
+.info-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    translate: 100px 80px;
+    font-weight: 100;
+}
+
+.info-section button:hover {
+    background-color: #333;
+}
+
+
+.contact-section {
+    background-color: #efc60b; /* Color amarillo */
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-header {
+    margin-bottom: 20px;
+}
+
+.contact-header h1 {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.contact-header p {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #000;
+}
+
+.contact-map img {
+    width: 70%;
+    height: 450px;
+}
+
+.contact-button button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contact-button button:hover {
+    background-color: #333;
+}
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    text-align: left; /* Cambiamos el alineado a la izquierda */
+    position: relative;
+}
+
+.footer-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alineamos el contenido al principio (izquierda) */
+    align-items: flex-start; /* Alineamos los elementos a la izquierda */
+}
+
+.footer-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: flex-start; /* Alineamos los enlaces a la izquierda */
+    width: 100%;
+    max-width: 800px;
+    margin: 40px 0;
+}
+
+.footer-column {
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column a {
+    color: #efc60b;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 0.8;
+    translate: -40px 40px;
+}
+
+.footer-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 1px solid white;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    margin-left: 10px;
+    color: #efc60b;
+}
+
+.social-icons a {
+    margin-right: 15px;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+    background-color:#efc60b;
+}
+
+/* Media Queries para dispositivos móviles (máximo ancho: 768px) */
+@media (max-width: 768px) {
+    
+    /* Nav - Evitar desbordamiento en móvil */
+    nav {
+        overflow-x: hidden;
+    }
+
+    /* Hero Section - "How happy are you?" */
+    .hero {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 50px;
+        translate: none;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+        translate: none;
+    }
+
+    .hero-content img {
+        width: 100%;
+        height: auto;
+        translate: none;
+    }
+
+    .botoncin {
+        translate: none;
+    }
+
+    /* Happiness in Numbers Section */
+    .stats-content{
+        width: 400px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+        height: 270px;
+        padding: 20px 20px;
+        margin-top: 200px;
+        margin-bottom: 100px;
+        translate: 0px -200px;
+    }
+    .stats h2 {
+        font-size: 40px;
+        translate: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .stats-graphics {
+        flex-direction: column;
+    }
+
+    .stats-graphics1 {
+        width: 90px;
+        height: 90px;
+        translate: 130px -95px;
+    }
+
+    .stats-graphics2 {
+        width: 90px;
+        height: 90px;
+        translate: 65px -40px;
+    }
+
+    .stats-content p {
+        font-size: 14px;
+        translate: none;
+    }
+
+    .negris {
+        font-size: 20px;
+        margin-top: -500px;
+    }
+
+    /* We Can Help You Section */
+    .help-content h2 {
+        font-size: 40px;
+        translate: none;
+        margin-top: -60%;
+        margin-left: 50px;
+    }
+
+    .help-content p {
+        font-size: 14px;
+        translate: none;
+        margin-left: 50px;
+    }
+
+    .help-content img {
+        width: 80%;
+        height: auto;
+        translate: none;
+        margin-top: -10px;
+        margin-left: 50px;
+    }
+
+    /* % Happiness Section */
+    .happiness-content {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .happiness-content img {
+        width: 100%;
+        height: auto;
+        translate: none;
+    }
+
+    .happiness-text h2 {
+        font-size: 50px;
+        translate: none;
+    }
+
+    .happiness-text p {
+        translate: none;
+    }
+
+    .boton-negro {
+        translate: none;
+    }
+
+    .botoni {
+        padding: 8px 50px;
+        background-color: #000000;
+        color: #ffffff;
+        translate: 50px 10px;
+        font-size: 120%;
+        font-weight: bold;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    
+    /* Our Team Section */
+    .team img {
+        width: 100%;
+        height: auto;
+        translate: none;
+    }
+
+    .team h5 {
+        font-size: 30px;
+        translate: none;
+    }
+
+    .team p {
+        font-size: 14px;
+        translate: none;
+    }
+
+    .boton-ama2 {
+        translate: none;
+    }
+
+    /* Method Section */
+    .method-content {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .method-content img {
+        width: 100%;
+        height: auto;
+        translate: none;
+    }
+
+    .method-text h2 {
+        font-size: 40px;
+        translate: none;
+    }
+
+    .method-text p {
+        font-size: 14px;
+        translate: none;
+    }
+
+    .amarelo {
+        translate: none;
+    }
+
+    /* Newsletter Section */
+    .form-container {
+        width: 400%;
+        height: 200%;
+        translate: none;
+    }
+
+    .info-section {
+        width: 100%;
+        translate: none;
+    }
+
+    .info-section h1 {
+        font-size: 30px;
+        translate: none;
+    }
+
+    .info-section p {
+        font-size: 14px;
+        translate: none;
+    }
+
+    .info-section button {
+        font-size: 14px;
+        translate: none;
+    }
+
+    /* Footer */
+    .footer-column a {
+        translate: none;
+    }
+
+    .footer-bottom p {
+        font-size: 14px;
+    }
+
+    .social-icons img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .about img {
+        width: 400px;
+        margin-top: 10px;
+    }
+
+    .about p {
+        margin-top: 190px;
+    }
+
+    .about {
+        width: 480px;
+        height: 600px;
+    }
+
+    .boton-ama {
+        translate: 0px -190px;
+    }
+
+    nav .logo img {
+        width: 70px;
+        height: 50px;
+        translate: 0px;
+    }
+    
+    .contact-map img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer-logo img {
+        width: 70px;
+        height: 50px;
+    }
+}
