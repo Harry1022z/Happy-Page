@@ -162,15 +162,15 @@ nav .menu li a {
 }
 
 .stats-graphics1 {
-    width: 200px;
-    height: 200px;
-    translate: 600px -200px
+    width: 250px;
+    height: 250px;
+    translate: 300px -100px
 }
 
 .stats-graphics2 {
-    width: 200px;
-    height: 200px;
-    translate: 400px -250px
+    width: 250px;
+    height: 250px;
+    translate: 320px -180px
 }
 /* We Can Help You Section */
 .help-content {
@@ -260,6 +260,7 @@ nav .menu li a {
     font-size: 18px;
     translate: -260px -200px;
 }
+
 
 .happiness-text p {
     margin-bottom: 20px;
